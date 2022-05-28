@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/TodoLaps-icono.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="Pagina_U.css">
+    <title>TodoLaps</title>
+</head>
+<body>
+                                            <!-- barranav -->
+    <header>
+        <nav class="navbar navbar-hover-light navbar-dark navbar-expand-lg bg-dark bg-gradient">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Imagenes/TodoLaps-icono.png" alt="U-Camp- Logo" width="40" height="35" class="d-inline-block align-text-top">
+                    TodoLaps
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown px-2 border-start">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Catálogo
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark border-light" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item fw-bold" href="#">Empresarial</a></li>
+                            <li><hr class="dropdown-divider-light"></li>
+                            <li><a class="dropdown-item fw-bold" href="#">Notebook</a></li>
+                            <li><hr class="dropdown-divider-light"></li>
+                            <li><a class="dropdown-item fw-bold" href="#">Gaming</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-2 border-end border-start">
+                        <a class="nav-link" href="#">Conócenos</a>
+                    </li>
+                    <li class="nav-item px-2 border-end">
+                        <a class="nav-link" href="#">Próximos productos</a>
+                    </li>
+                    <li class="nav-item px-2 border-end">
+                        <a class="nav-link"  href="#">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex hover-zoom py-1" id="BotonB" role="search">
+                    <input class="form-control mx-2 fst-italic pe-5" type="search" placeholder="Busqueda" aria-label="Search">
+                    <button class="btn btn-primary bg-gradient text-white" type="submit">Buscar</button>
+                </form>
+                <div class="py-1 pe-2">
+                    <button type="button" class="btn btn-primary text-white bg-gradient">Registrarse</button>
+                </div>
+                <div class="dropdown py-1">
+                    <button type="button" class="btn btn-primary bg-gradient text-white dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" data-bs-auto-close="outside">
+                        Ingresar
+                    </button>
+                    <form class="dropdown-menu dropdown-menu-dark p-4 dropdown-menu-lg-end border-light" id="cajaemail">
+                        <div class="mb-3">
+                            <label for="exampleDropdownFormEmail2" class="form-label">Dirección de Correo</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleDropdownFormPassword2" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="************">
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                            <label class="form-check-label" for="dropdownCheck2">
+                                Recordar mi sesión
+                            </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary bg-gradient">Ingresar</button>
+                    </form>
+                </div>
+                </section>
+            </div>
+        </nav>
+    </header>
+                                            <!-- Portada -->
+    <main>
+        <div class="container-fluid mx-0 px-0">
+            <section class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 mx-0" style="background: linear-gradient(0deg, rgb(102, 104, 145) 0%, rgba(44, 44, 119,1) 61%);">
+                <div class="col-lg text-center">
+                    <img src="Imagenes/Laptop-PNG.png" class="w-100 h-100 p-5" alt="Imagen de Laptops">
+                </div>
+                <div class="col-lg align-self-center" style="height: 30rem;">
+                    <div class="text-center p-3" style="height: 35%;">
+                        <span class="text-white h1 fw-bolder text-shadow">TU PORTAL A UN MUNDO DE POSIBILIDADES</span>
+                    </div>
+                    <div class="text-center p-3" style="height: 35%;">
+                        <span class="fw-semibold text-white fs-2 text-shadow">Conoce nuestras Laptops con una amplia variedad y estilos para cada tipo de persona.</span>
+                    </div>
+                    <div class="text-center align-self-center px-3 pb-5 pt-4" style="height: 30%;">
+                        <button type="button" class="btn btn-warning bg-gradient fs-5 fw-semibold text-shadow p-3">Ver Catálogo</button>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid flex1 bg-warning p-3" style="height: 5%;">
+                <p class="fw-bold text-center text-shadow fs-5" id="encabezado">Aprovecha y obtén hasta un 30% de descuento en articulos seleccionados 🔥</p>
+                <button type="button" class="btn btn-primary text-white bg-gradient text-shadow">Información</button>
+            </section>
+        </div>
+    </main>
+                                        <!-- Carrucel -->
+    <section class="d-flex justify-content-center align-items-center py-4" style="background: linear-gradient(180deg, rgb(102, 104, 145) 0%, rgba(44, 44, 119,1) 61%);">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade h-75" style="width: 60%;" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: rgba(0, 0, 0, 0.8);"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: rgba(0, 0, 0, 0.8);"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: rgba(0, 0, 0, 0.8);"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"> <img src="Imagenes/carousel_01.jpg" class="d-block w-100" alt="carousel_01"> </a>
+                    <div class="carousel-caption d-none d-sm-block" style="color: black;">
+                        <h2 class="text-shadow">Envíos Seguros</h2>
+                        <p class="name-bg fs-4 text-shadow">fácil, rápido y a cualquier lado</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"> <img src="Imagenes/carousel_02.jpg" class="d-block w-100" alt="carousel_02"> </a>
+                    <div class="carousel-caption d-none d-sm-block" style="color: rgb(255, 255, 255);">
+                        <h2 class="text-shadow">Siempre Actualizados</h2>
+                        <p class="name-bg fs-4 text-shadow">Los mejores y nuevos productos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"> <img src="Imagenes/carousel_03.jpg" class="d-block w-100" alt="carousel_03"> </a>
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h2 class="text-shadow">Trabajo o Juego </h2>
+                        <p class="name-bg fs-4 text-shadow">Para ti y tu estilo de vida</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+                                        <!-- Separador -->
+    <section>
+        <div id="separator">
+            <div class="content bg-warning"></div>
+        </div>
+    </section>
+                                        <!-- Cards -->
+    <section>
+        <div id="cards1">
+            <div class="content-md p-3">
+                <div class="row p-5 d-flex justify-content-center align-items-center">
+                    <h2 class="text-center mb-5 text-white text-shadow h1">
+                        CONOCE TU NUEVO EQUIPO
+                    </h2>
+                    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 pt-5 ">
+                        <div class="col-sm text-center">
+                            <div class="card w-100 card-border mb-5">
+                                <img src="Imagenes/card_01.jpg" class="card-img-top" alt="Laptop1">
+                                <div class="card-body">
+                                    <h5 class="card-title">ASUS - ROG Zephyrus 14"</h5>
+                                    <p class="card-text">AMD Ryzen 9 - 16GB Memory - NVIDIA GeForce RTX 3060 - 1TB SSD - Moonlight White.</p>
+                                    <a href="#" class="btn btn-primary bg-gradient">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm text-center">
+                            <div class="card w-100 card-border mb-5">
+                                <img src="Imagenes/card_02.jpg" class="card-img-top" alt="Laptop1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Legion Slim 7 15" Gaming Laptop</h5>
+                                    <p class="card-text">AMD Ryzen 7 5800H - 16GB Memory - NVIDIA GeForce RTX 3060 - 512GB SSD - Shadow Black.</p>
+                                    <a href="#" class="btn btn-primary bg-gradient">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm text-center">
+                            <div class="card w-100 card-border mb-5">
+                                <img src="Imagenes/card_03.jpg" class="card-img-top" alt="Laptop1">
+                                <div class="card-body">
+                                    <h5 class="card-title">ASUS - ROG Zephyrus 15.6" QHD</h5>
+                                    <p class="card-text">AMD Ryzen 9 - 16GB Memory - NVIDIA GeForce RTX 3070 - 1TB SSD - Eclipse Grey - Eclipse Grey.</p>
+                                    <a href="#" class="btn btn-primary bg-gradient">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                                        <!-- footer -->
+    <footer>
+        <div class="p-4 bg-dark bg-gradient">
+            <div class="container w-50">
+                <div class="row justify-content-md-center">
+                    <div class="col-lg text-center d-flex justify-content-center align-items-center">
+                        <a href="#">
+                            <button class="btn btn-lg btn-warning bg-gradient rounded-pill W-10 p-3 text-shadow fw-bolder">Soporte Técnico</button>
+                        </a>
+                    </div>
+                    <div class="col-lg d-flex justify-content-center align-items-center">
+                        <a href="#"> <img src="Imagenes/facebook_icon.png" alt="Facebook-Logo" width="40" height="35" class="d-inline-block align-text-top m-4"></a>
+                        <a href="#"> <img src="Imagenes/IG_icon.png" alt="IG-Logo" width="40" height="35" class="d-inline-block align-text-top m-4"></a>
+                        <a href="#"> <img src="Imagenes/Gh_icon.png" alt="Github-Logo" width="40" height="35" class="d-inline-block align-text-top m-4"></a>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center py-2">
+                    <div class="col text-center fw-semibold text-white text-shadow">
+                        <p>© 2021 TodoLaps.</p>
+                        <p>Todos los derechos reservados.</p>
+                        <p>Esta es una página de aterrizaje ficticia para fines académicos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
